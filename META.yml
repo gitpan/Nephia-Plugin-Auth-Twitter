@@ -27,14 +27,15 @@ no_index:
 provides:
   Nephia::Plugin::Auth::Twitter:
     file: lib/Nephia/Plugin/Auth/Twitter.pm
-    version: 0.01
+    version: 0.02
 requires:
   Data::UUID::MT: 0
   Nephia::DSLModifier: 0
+  Net::OAuth: 0.25
   Net::Twitter::Lite::WithAPIv1_1: 0
   perl: 5.008005
 resources:
   bugtracker: https://github.com/ytnobody/Nephia-Plugin-Auth-Twitter/issues
   homepage: https://github.com/ytnobody/Nephia-Plugin-Auth-Twitter
   repository: git://github.com/ytnobody/Nephia-Plugin-Auth-Twitter.git
-version: 0.01
+version: 0.02
